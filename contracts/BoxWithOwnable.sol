@@ -1,11 +1,10 @@
-// contracts/Box.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 // Import Auth from the access-control subdirectory
 import "./access-control/Auth.sol";
 
-contract Box {
+contract BoxWithAuth {
 
     uint256 private _value;
     Auth private _auth;
